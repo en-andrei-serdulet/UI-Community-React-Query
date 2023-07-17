@@ -1,0 +1,5 @@
+@import "@bee-q/core/dist/bee-q/bee-q.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
