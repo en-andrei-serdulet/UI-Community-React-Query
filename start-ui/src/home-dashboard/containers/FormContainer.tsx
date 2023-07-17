@@ -49,7 +49,6 @@ const FormContainer = ({
     if (defaultValues) {
       const updatedPizza = { ...defaultValues, ...data };
       setSizes([defaultValues.size]);
-      console.log("size", defaultValues);
       updatePizza(updatedPizza);
       reset();
     } else {
